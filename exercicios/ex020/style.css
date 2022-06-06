@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font: italic normal 18px sans-serif;
+}
+
+div {
+    display: inline-block;
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+div:hover {
+    background-color: violet;
+}

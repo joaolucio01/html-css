@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color:blue ;
+            background-color: black;
+        }
+        div:hover {
+            color:  #0000ff;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1> Exemplo de hover</h1>
+    <p>passe o mause no texto abaixo.</p>
+    <div>passe o mause aqui.
+        <p>texto esxondido. </p>
+    </div>
+</body>
+</html>
